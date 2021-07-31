@@ -1,9 +1,10 @@
+/* eslint-disable import/prefer-default-export */
 // seed file for data on firebase
 
-function seedDatabase(firebase) {
+export function seedDatabase(firebase) {
   const users = [
     {
-      userId: 'NvPY9M9MzFTARQ6M816YAzDJxZ72',
+      userId: '1gJJ3k6JBRb5HJAYIAkVK5siwIH3',
       username: 'karl',
       fullName: 'Karl Hadwen',
       emailAddress: 'karlhadwen@gmail.com',
@@ -17,7 +18,7 @@ function seedDatabase(firebase) {
       fullName: 'Raffaello Sanzio da Urbino',
       emailAddress: 'raphael@sanzio.com',
       following: [],
-      followers: ['NvPY9M9MzFTARQ6M816YAzDJxZ72'],
+      followers: ['1gJJ3k6JBRb5HJAYIAkVK5siwIH3'],
       dateCreated: Date.now()
     },
     {
@@ -26,7 +27,7 @@ function seedDatabase(firebase) {
       fullName: 'Salvador Dalí',
       emailAddress: 'salvador@dali.com',
       following: [],
-      followers: ['NvPY9M9MzFTARQ6M816YAzDJxZ72'],
+      followers: ['1gJJ3k6JBRb5HJAYIAkVK5siwIH3'],
       dateCreated: Date.now()
     },
     {
@@ -35,7 +36,7 @@ function seedDatabase(firebase) {
       fullName: 'George Orwell',
       emailAddress: 'george@orwell.com',
       following: [],
-      followers: ['NvPY9M9MzFTARQ6M816YAzDJxZ72'],
+      followers: ['1gJJ3k6JBRb5HJAYIAkVK5siwIH3'],
       dateCreated: Date.now()
     }
   ];
@@ -74,5 +75,3 @@ function seedDatabase(firebase) {
       });
   }
 }
-
-export default seedDatabase;
