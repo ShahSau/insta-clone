@@ -5,12 +5,12 @@ import 'firebase/auth';
 // import {seedDatabase} from '../seed';
 
 const config = {
-  apiKey: 'AIzaSyCaAM4b3uqeFa1S7M1DrPsOuy7KNRHuBgA',
-  authDomain: 'insta-clone-fb.firebaseapp.com',
-  projectId: 'insta-clone-fb',
-  storageBucket: 'insta-clone-fb.appspot.com',
-  messagingSenderId: '655288511165',
-  appId: '1:655288511165:web:8a1007df012fa927e425d4'
+  apiKey: '',
+  authDomain: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: ''
 };
 
 const firebase = Firebase.initializeApp(config);
